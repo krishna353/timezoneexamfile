@@ -1,4 +1,4 @@
-package com.test.timezone;
+package com.org.timezone;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -22,6 +22,7 @@ public class TimeControllerIntegrationTest {
 	private TestRestTemplate restTemplate;
 
 	@Test
+	@SuppressWarnings("unchecked")
 	public void testGetTimeWithValidTimezone() {
 		// Arrange
 		String timezone = "America/New_York";

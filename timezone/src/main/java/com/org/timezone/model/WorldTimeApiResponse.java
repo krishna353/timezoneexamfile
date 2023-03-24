@@ -1,16 +1,10 @@
-package com.test.timezone.model;
+package com.org.timezone.model;
 
 
-public class TimeResponse {
+public class WorldTimeApiResponse {
 	private String abbreviation;
 	private String timezone;
 	private String datetime;
-
-	public TimeResponse(String abbreviation, String timezone, String datetime) {
-		this.abbreviation = abbreviation;
-		this.timezone = timezone;
-		this.datetime = datetime;
-	}
 
 	public String getAbbreviation() {
 		return abbreviation;
